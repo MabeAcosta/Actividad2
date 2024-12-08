@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="funcionalidades.css">
+    
+    <title>Funcionalidades Logicas</title>
+</head>
+<body>
+    <h1>Funcionalidades Logicas</h1>
+    <section>
+        <h2>Comparar Numeros</h2>
+        <input type="number" id="numero1" placeholder="Ingrese el primer numero" required>
+        <input type="number" id="numero2" placeholder="Ingrese el segundo numero" required>
+        <button onclick="compararNumeros()">Comparar</button>
+        <div id="resultado-comparacion"></div>
+    </section>
+    <section>
+        <h2>Mes por Numero</h2>
+        <input type="number" id="mes" placeholder="Ingrese un número (1-12)" required>
+        <button onclick="mostrarMes()">Mostrar Mes</button>
+    </section>
+    <section>
+        <h2>Gestion de Arrays</h2>
+        <input type="text" id="nombre" placeholder="Ingrese un nombre" required>
+        <button onclick="agregarNombre()">Agregar</button>
+        <div id="lista-nombres"></div>
+    </section>
+    <script defer src="funcionalidades.js"></script>
+</body>
+</html>

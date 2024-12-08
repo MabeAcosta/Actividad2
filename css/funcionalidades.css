@@ -1,0 +1,137 @@
+body { 
+
+    font-family: Arial, sans-serif; 
+
+    background-image: url(https://th.bing.com/th/id/R.1cd16290dd0d42f0245a6db07d6f2482?rik=iuVGD8NmCtFfyw&pid=ImgRaw&r=0); 
+
+    background-color: #f4f4f4; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    align-items: center; 
+
+} 
+
+ 
+
+header { 
+
+    text-align: center; 
+
+    margin-top: 20px; 
+
+} 
+
+ 
+
+h1 { 
+
+    font-size: 24px; 
+
+    color: #333; 
+
+} 
+
+ 
+
+h2 { 
+
+    font-size: 20px; 
+
+    color: #555; 
+
+} 
+
+ 
+
+section { 
+
+    background-color: white; 
+
+    padding: 20px; 
+
+    margin: 20px; 
+
+    border-radius: 8px; 
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+    width: 80%; 
+
+    max-width: 500px; 
+
+} 
+
+ 
+
+input[type="number"], 
+
+input[type="text"], 
+
+input[type="date"], 
+
+select { 
+
+    width: 100%; 
+
+    padding: 8px; 
+
+    margin: 10px 0; 
+
+    border: 1px solid #ddd; 
+
+    border-radius: 4px; 
+
+} 
+
+ 
+
+button { 
+
+    background-color: #4CAF50; 
+
+    color: white; 
+
+    padding: 10px; 
+
+    border: none; 
+
+    border-radius: 4px; 
+
+    cursor: pointer; 
+
+    font-size: 16px; 
+
+    width: 100%; 
+
+} 
+
+ 
+
+button:hover { 
+
+    background-color: #45a049; 
+
+} 
+
+ 
+
+#resultado-comparacion, 
+
+#resultado-registro { 
+
+    margin-top: 20px; 
+
+    font-size: 18px; 
+
+    font-weight: bold; 
+
+    color: #333; 
+
+} 

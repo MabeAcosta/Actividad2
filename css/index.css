@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.ERXb9AP7FuL9u9DwciICAQHaIJ?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(13, 71, 161, 0.8);
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0;
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(21, 101, 192, 0.8);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(191, 85, 66, 0.9);
+    transform: scale(1.1);
+}
+
+body {
+    padding: 2rem;
+    font-size: 1.2rem;
+}

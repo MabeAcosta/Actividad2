@@ -1,0 +1,87 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    background-image: url('https://th.bing.com/th/id/R.1cd16290dd0d42f0245a6db07d6f2482?rik=iuVGD8NmCtFfyw&pid=ImgRaw&r=0');
+    background-color: #f9f7f7;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+header { 
+    text-align: center; 
+    margin-top: 30px;
+    color: #f3c0c0;
+}
+
+h1 { 
+    font-size: 32px; 
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h2 { 
+    font-size: 24px; 
+    color: #ff7f7f;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+section { 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 25px; 
+    margin: 25px; 
+    border-radius: 12px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    width: 80%; 
+    max-width: 550px; 
+    border: 1px solid #f0c8e1;
+}
+
+input[type="number"], 
+input[type="text"], 
+input[type="date"], 
+select { 
+    width: 100%; 
+    padding: 14px; 
+    margin: 12px 0; 
+    border: 1px solid #f0c8e1;
+    border-radius: 8px; 
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+ 
+select:focus { 
+    outline: none;
+    border-color: #ff7f7f;
+    box-shadow: 0 0 5px rgba(255, 127, 127, 0.7);
+}
+
+button { 
+    background-color: #ff7f7f; 
+    color: white; 
+    padding: 14px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    width: 100%; 
+    transition: background-color 0.3s;
+}
+
+button:hover { 
+    background-color: #f06292; 
+}
+
+
+#resultado-registro { 
+    margin-top: 20px; 
+    font-size: 20px; 
+    f
